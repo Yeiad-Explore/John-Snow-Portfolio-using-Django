@@ -1,5 +1,7 @@
 {% extends "layout.html" %}
 
+{% load static %}
+
 {%block body %}
 
 
@@ -9,8 +11,11 @@
     I'm John Snow,
     I'm the King in the North.
   </p>
+  <div class="text-center">
+    <img src="{% static 'images/Jon.png' %}" class="rounded" alt="Winter is coming">
+  </div>
 
-
+  
 </div>
 
 
@@ -98,8 +103,10 @@
           <div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Killed White Walker</li>
-              <li class="list-group-item">Created Alliance with Daenerys Targaryen,Created alliance with king beyond the wall and united whole north against White walker </li>
-              <li class="list-group-item">I rode Rhaegal the Dragon, Rhaegal named after my father's name(Spolor Alert)</li>
+              <li class="list-group-item">Created Alliance with Daenerys Targaryen,Created alliance with king beyond the
+                wall and united whole north against White walker </li>
+              <li class="list-group-item">I rode Rhaegal the Dragon, Rhaegal named after my father's name(Spolor Alert)
+              </li>
             </ul>
           </div>
         </div>
